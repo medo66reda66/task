@@ -5,6 +5,8 @@ namespace task.Models;
 
 public partial class Product
 {
+    internal bool productionstocks;
+
     public int ProductId { get; set; }
 
     public string ProductName { get; set; } = null!;
